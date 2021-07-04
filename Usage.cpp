@@ -86,6 +86,15 @@ sort(v.begin(),v.end(),compare);
 //vector reverse
 reverse(myvector.begin(),myvector.end());
 
+//deque
+deque<int> dq;
+dq.push_back(10);
+dq.push_front(20);
+dq.pop_back();
+dq.pop_front();
+//其他同vector
+
+
 // pointer
 vector<int>* k = new vector<int>;
 vector<int>* p = &ss;
